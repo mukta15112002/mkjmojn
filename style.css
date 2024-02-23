@@ -1,0 +1,52 @@
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid grey;
+    padding: 4px;
+}
+
+ul{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+    padding: 4px;
+    color:brown
+}
+gp{
+    display: flex;
+    border: 500px;
+    width: 400px;
+
+}
+p1{
+    margin:20px;
+    padding:44px;
+    display:flex;
+    width:64px;
+}
+
+child1{
+    margin:8px;
+    padding:120px;
+    background-color: brown;
+}
+a{
+    text-decoration:none;
+}
+
+@media (max-width:400px) {
+    ul{
+        display: block;
+}
+}
+
+@media (max-width: 780px) {
+    ul{
+        display: block;
+    }
+}
